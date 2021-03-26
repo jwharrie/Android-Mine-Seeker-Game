@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Mine Seeker</string>
+
+    //Welcome Screen Strings
+    <string name="game_name">Hack the Pentagon!</string>
+    <string name="author">Application author: Jacob Wharrie</string>
+    <string name="skip_to_main_menu">SKIP TO MAIN MENU</string>
+
+    //Main Menu Strings
+    <string name="main_menu">Main Menu</string>
+    <string name="start_game">START GAME</string>
+    <string name="options">OPTIONS</string>
+    <string name="help">HELP</string>
+
+    //Options Screen Strings
+    <string name="options_lowercase">Options</string>
+    <string name="board_size">Board size:</string>
+    <string name="number_mines">Number of mines:</string>
+    <string name="reset">RESET RECORDS OF HIGH SCORES AND GAMES PLAYED</string>
+
+    //Help Screen Strings
+    <string name="instructions_title">Help - How to hack the Pentagon:</string>
+    <string name="author_title">About the author:</string>
+    <string name="citations_title">Sources for images:</string>
+    <string name="instructions">You are presented with a 2D array of blank buttons. Each top-secret Pentagon file to hack is hidden in one of these buttons.
+    When you click on a blank button, one of two things will happen:\n
+    1) The file image will be shown, indicating that you found the file.\n
+    2) Our ingenious super-special hacker-scan will occur, where the number of hidden files in the same row AND column will appear on the button now.\n
+    The objective of the game is to find ALL the hidden files using the LEAST AMOUNT of hacker-scans as possible.
+        As you find more files, the numbers displayed on the scanned buttons will decrease. The amount of files found and the number of hacker-scans done will update.
+        A hacker-scan will NOT occur on a button again if there was one PREVIOUSLY on it. The hacker-scan WILL occur when you click on a previously UNCOVERED FILE.
+        When all files are found, YOU WIN!
+        The game will return to the main menu afterwards.\n
+        To change the NUMBER OF FILES to find and the DIMENSIONS of the button array, go to the OPTIONS MENU on the main menu.
+    </string>
+    <string name="author_info">Jacob Wharrie is a computing science student at Simon Fraser University.
+        He is currently taking <a href="http://www.cs.sfu.ca/CourseCentral/276/bfraser/index.html">CMPT 276</a>.</string>
+    <string name="citations">
+        Jet image: <a href="https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_kspaceduel.png">https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_kspaceduel.png</a>\n
+        File image: <a href="https://commons.wikimedia.org/wiki/File:Crystal_Clear_filesystem_folder_yellow.png">https://commons.wikimedia.org/wiki/File:Crystal_Clear_filesystem_folder_yellow.png</a>\n
+        Smiley image: <a href="https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_ksmiletris.png">https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_ksmiletris.png</a>\n
+        Background image: <a href="http://www.cs.sfu.ca/CourseCentral/276/bfraser/solutions/images/Images/Image-22.jpg">http://www.cs.sfu.ca/CourseCentral/276/bfraser/solutions/images/Images/Image-22.jpg</a>\n
+        Scan sound effect: <a href="http://soundbible.com/819-Checkout-Scanner-Beep.html">http://soundbible.com/819-Checkout-Scanner-Beep.html</a>
+    </string>
+
+    //Game Screen Strings
+    <string name="empty_string">empty string</string>
+    <string name="close_game">RETURN TO MAIN MENU</string>
+
+    //Message Layout Strings
+    <string name="message">You just hacked the Pentagon, of all places!</string>
+    <string name="message2">Have my amazed face.</string>
+</resources>

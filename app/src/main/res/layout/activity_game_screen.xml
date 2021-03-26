@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameScreenActivity">
+
+    <TextView
+        android:id="@+id/mine_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/table_buttons"
+        android:layout_marginTop="15dp"
+        android:background="#000000"
+        android:text="@string/empty_string"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scan_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/mine_counter"
+        android:layout_marginEnd="22dp"
+        android:text="@string/empty_string"
+        android:textColor="@android:color/white"
+        android:background="#000000"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/table_buttons"
+        android:layout_width="570dp"
+        android:layout_height="221dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:stretchColumns="*">
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/times_played_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/mine_counter"
+        android:background="#000000"
+        android:text="@string/empty_string"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</RelativeLayout>
